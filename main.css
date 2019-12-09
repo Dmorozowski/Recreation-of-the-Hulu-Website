@@ -1,0 +1,222 @@
+.background-image {
+  max-width: 100%;
+  height: 100%;
+  z-index: 0;
+  position: absolute;
+  background-image: linear-gradient(
+      to right,
+      rgba(9, 76, 220, 0.45),
+      rgb(37, 252, 134, 0.2)
+    ),
+    url(https://images.unsplash.com/photo-1496381273223-e4ad4e99f5b6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80);
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+}
+body {
+  margin: 0;
+}
+.navBar {
+  padding-left: 4px;
+  width: 100%;
+  height: 100px;
+  z-index: 1;
+  background: transparent;
+  top: 0;
+  position: sticky;
+}
+
+.hamburger {
+  float: right;
+  max-height: 80px;
+  cursor: pointer;
+}
+
+#logo {
+  width: 120px;
+  height: 120px;
+  float: left;
+  z-index: 1;
+  position: relative;
+  top: -20px;
+  left: 0px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.frontPageText {
+  font-family: "Graphik", Helvetica, Arial, sans-serif;
+  top: 1;
+  background-color: transparent;
+  font-weight: 200;
+  text-align: center;
+  color: white;
+  margin-bottom: 100px;
+}
+
+.frontPageTextTitle {
+  font-family: "Graphik", Helvetica, Arial, sans-serif;
+  top: 1;
+  font-size: 46px;
+  line-height: 100px;
+  background-color: transparent;
+  font-weight: lighter;
+  text-align: center;
+  color: white;
+}
+
+.frontPageText1 {
+  font-family: "Graphik", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  text-align: center;
+  color: white;
+}
+
+.frontPageText2 {
+  font-family: "Graphik", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+}
+#free-trial {
+  padding: 0px 32px;
+  height: 46px;
+  margin-left: 35%;
+  margin-right: 35%;
+  font-family: "Twentieth Century", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  display: inline-block;
+  cursor: pointer;
+  white-space: nowrap;
+  line-height: 14px;
+}
+
+.footer {
+  width: 100%;
+  height: 130px;
+  z-index: 1;
+  position: relative;
+  bottom: -32px;
+  background-color: #0a1330;
+  background-image: linear-gradient(
+    to right,
+    rgba(12, 30, 70, 0.9),
+    rgba(9, 107, 50, 0.5)
+  );
+}
+
+.logos {
+  float: left;
+  position: relative;
+  padding: 12px;
+  align-content: center;
+  justify-content: center;
+  top: -15;
+}
+
+#hulu {
+  width: 100px;
+  height: 60px;
+  z-index: 2;
+  position: relative;
+  top: 32px;
+  float: left;
+  margin: 3px;
+}
+
+#disneyPlus {
+  width: 120px;
+  height: 80px;
+  z-index: 2;
+  float: left;
+  position: relative;
+  top: 12px;
+  margin: 3px;
+}
+
+#espnPlus {
+  width: 100px;
+  height: 24px;
+  position: relative;
+  top: 52px;
+  z-index: 2;
+  float: left;
+  margin: 3px;
+}
+
+.discount {
+  padding: -20px;
+  position: relative;
+  align-content: center;
+  justify-content: center;
+  top: 10px;
+}
+#bundle {
+  font-family: "Graphik", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  position: relative;
+  text-align: center;
+  color: #00ff80;
+  top: 20px;
+  left: -26%;
+}
+
+#monthlyPrice {
+  font-family: "Graphik", Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  position: relative;
+  text-align: center;
+  color: white;
+  top: 16px;
+  left: -14%;
+}
+
+#moreDetails {
+  font-family: "Graphik", Helvetica, Arial, sans-serif;
+  text-decoration: underline;
+  position: relative;
+  cursor: pointer;
+  color: white;
+  font-weight: 200;
+  left: 35px;
+}
+
+#buyNow {
+  font-family: "Graphik", Helvetica, Arial, sans-serif;
+  position: relative;
+  color: white;
+  border: solid 2px white;
+  background-color: transparent;
+  padding: 15px;
+  margin-left: 35%;
+  margin-right: 35%;
+  font-size: 14px;
+  font-weight: 400;
+  display: inline-block;
+  cursor: pointer;
+  white-space: nowrap;
+  line-height: 14px;
+  top: -70px;
+  right: -650px;
+}
+
+#terms {
+  font-family: "Graphik", Helvetica, Arial, sans-serif;
+  text-decoration: underline;
+  font-size: 12px;
+  font-weight: 200;
+  position: relative;
+  color: white;
+  float: right;
+  top: -30px;
+  right: 95px;
+}
+
+#huluCollage {
+  width: 100%;
+  height: 100%;
+  position: static;
+}
